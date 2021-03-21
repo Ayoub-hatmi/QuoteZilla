@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_bg">#FFFFFFFF</color>
+    <color name="dark_bg">#121212</color>
+    <color name="dark_card">#1E1E1E</color>
+    <color name="menu_color">#8B40B8</color>
+
+
+
+    <color name="bg_color">#121212</color>
+    <color name="main_text_color">#FFFFFFFF</color>
+    <color name="alt_text_color">#6F6F6F</color>
+    <color name="bg_card_color">#1E1E1E</color>
+    <color name="icon_color">#FFFFFFFF</color>
+
+
+</resources>

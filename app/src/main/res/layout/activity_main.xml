@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/bg_color"
+    tools:context=".MainActivity">
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_above="@id/main_adView"
+        android:background="@color/bg_color"
+        android:layout_height="match_parent" >
+
+
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/main_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomNav"
+        app:adSize="BANNER"
+        android:background="@color/bg_color"
+        app:adUnitId="@string/main_banner_id"/>
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottomNav"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/nav_bg"
+        android:elevation="18dp"
+        android:padding="8dp"
+        app:cnb_textAppearance="@style/BottomNavigationViewTextStyle"
+        app:cnb_menuResource="@menu/bottommenu"
+        app:cnb_unselectedColor="#fff" />
+
+ </RelativeLayout>

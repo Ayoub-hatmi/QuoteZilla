@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bg_color"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/qotd_btn"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_bg"
+            android:elevation="10dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="16dp"
+            android:text="@string/quote_of_the_day"
+            android:fontFamily="@font/medium"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:textColor="@color/main_text_color"
+            android:drawableEnd="@drawable/qod"
+            android:paddingEnd="32dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/medium"
+            android:textColor="@color/main_text_color"
+            android:layout_marginStart="16dp"
+
+            android:text="@string/explore"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:scrollbars="vertical"
+            android:id="@+id/main_recycler_view"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

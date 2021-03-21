@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">QuoteZilla</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="quote_of_the_day">Quote of the day</string>
+    <string name="explore">Explore</string>
+    <string name="topics">Topics</string>
+    <string name="written_by">Written by</string>
+
+
+
+
+
+    <string name="banner_test_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="inter_test_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="qotd_inter_id">ca-app-pub-2704307908985299/5145759516</string>
+
+
+    <string name="main_banner_id">ca-app-pub-2704307908985299/6885667858</string>
+    <string name="anime_banner_id">ca-app-pub-2704307908985299/1837069895</string>
+    <string name="art_banner_id">ca-app-pub-2704307908985299/1645498201</string>
+    <string name="entrepreneurship_banner_id">ca-app-pub-2704307908985299/2008460285</string>
+    <string name="family_banner_id">ca-app-pub-2704307908985299/3696946476</string>
+    <string name="happiness_banner_id">ca-app-pub-2704307908985299/7253048102</string>
+    <string name="inspirational_banner_id">ca-app-pub-2704307908985299/7061476413</string>
+    <string name="leadership_banner_id">ca-app-pub-2704307908985299/4243741389</string>
+    <string name="life_banner_id">ca-app-pub-2704307908985299/2739088024</string>
+    <string name="love_banner_id">ca-app-pub-2704307908985299/3860598009</string>
+    <string name="qotd_banner_id">ca-app-pub-2704307908985299/6295189658</string>
+    <string name="shows_banner_id">ca-app-pub-2704307908985299/3477454625</string>
+    <string name="success_banner_id">ca-app-pub-2704307908985299/8538209618</string>
+    <string name="time_banner_id">ca-app-pub-2704307908985299/4598964602</string>
+    <string name="wisdom_banner_id">ca-app-pub-2704307908985299/7033556250</string>
+    <string name="workout_banner_id">ca-app-pub-2704307908985299/8155066233</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKE IT YOURS"
+        android:textColor="@color/alt_text_color"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/regular"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/moon"
+        android:id="@+id/mode_btn"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Theme"
+        android:textColor="@color/main_text_color"
+        android:textAllCaps="false"
+        android:drawablePadding="12dp"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/regular"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUPPORT US"
+        android:textColor="@color/alt_text_color"
+        android:textSize="16sp"
+        android:fontFamily="@font/regular"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/next"
+        android:id="@+id/stg_share_btn"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/main_text_color"
+        android:text="Share QuoteZilla with a friend"
+        android:textAllCaps="false"
+        android:drawablePadding="12dp"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/regular"/>
+    <Button
+        android:id="@+id/stg_review_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/review"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Leave us a Review"
+        android:textColor="@color/main_text_color"
+        android:textAllCaps="false"
+        android:drawablePadding="12dp"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/regular"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/alt_text_color"
+
+        android:text="HELP"
+        android:textSize="16sp"
+        android:fontFamily="@font/regular"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/contact"
+        android:id="@+id/stg_feedback_btn"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Give us your Feedback"
+        android:textColor="@color/main_text_color"
+        android:textAllCaps="false"
+        android:drawablePadding="12dp"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/regular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/alt_text_color"
+
+        android:text="FOLLOW US"
+        android:textSize="16sp"
+        android:fontFamily="@font/regular"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ig"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/main_text_color"
+        android:text="Instagram"
+        android:id="@+id/stg_ig_btn"
+        android:textAllCaps="false"
+        android:drawablePadding="12dp"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/regular"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/fb"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/main_text_color"
+        android:text="Facebook"
+        android:textAllCaps="false"
+        android:drawablePadding="12dp"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:id="@+id/stg_fb_btn"
+        android:fontFamily="@font/regular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/alt_text_color"
+        android:text="Others"
+        android:textSize="16sp"
+        android:fontFamily="@font/regular"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/main_text_color"
+        android:text="Privacy Policy"
+        android:textAllCaps="false"
+        android:id="@+id/stg_policy_btn"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/regular"/>
+
+
+</LinearLayout>
+</FrameLayout>

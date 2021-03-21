@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".QuoteOfTheDay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:background="@color/bg_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:id="@+id/qotd_content_txt"
+            android:textColor="@color/main_text_color"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="16dp"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/written_by"
+            android:textColor="#C0C0C0"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/main_text_color"
+            android:fontFamily="@font/regular"
+            android:id="@+id/qotd_writer_txt"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/qotd_like_btn"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                app:lottie_rawRes="@raw/like_btn"
+                app:lottie_autoPlay="false"
+                android:layout_marginEnd="8dp"
+                app:lottie_loop="false"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_copy"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:id="@+id/qotd_copy_btn"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_share"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:id="@+id/qotd_share_btn"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/qotd_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        android:background="@color/bg_color"
+        app:adUnitId="@string/qotd_banner_id"/>
+</RelativeLayout>
