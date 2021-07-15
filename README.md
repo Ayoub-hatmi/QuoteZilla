@@ -3,9 +3,7 @@
 <h3>QuoteZilla - Daily Quotes & Status</h3>
 
 an android native app that contains thousands of motivational and inspirational quotes organized by topics. this app allows users to save their favorites quotes, copy or share them in social media apps and get a daily quote notification. Also it support dark mode.
-<h3>Download the app:</h3>
 
-<a href="https://play.google.com/store/apps/details?id=com.quotezilla.quote.status.motivation" ><img src="google-play-badge.png"/></a>
 <h3>Screenshots:</h3>
 <table>
   <tr> <td><img src="screenshot1.png"/></td> <td><img src="screenshot2.png"/></td> <td><img src="screenshot3.png"/></td> </tr>
